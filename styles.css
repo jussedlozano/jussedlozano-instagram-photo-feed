@@ -1,0 +1,78 @@
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+body{
+    background: rgb(230, 230, 230);
+    margin: 0;
+}
+
+#div1{
+    margin-top: 0px;
+    background: white;
+}
+
+#div1 h1{
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 25pt;
+    font-family: 'Oleo Script';
+    color: black;
+}
+
+.post{
+    margin: 20px auto;
+    width: 600px;
+}
+
+.postheader{
+    background: white;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.name{
+    width: 90%;
+    float: left;
+    margin: 10px 0px 10px 10px;
+    font-family: 'Mulish';
+    font-size: 12pt;
+}
+
+.number{
+    width: 10%;
+    float: right;
+    margin: 10px 10px 10px 0px;
+    font-family: 'Manrope';
+    font-size: 12pt;
+    text-align: right;
+}
+
+.imagen{
+    height: 600px;
+    margin: 0px;
+    background: white;
+}
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background: white;
+    margin: 0px;
+}
+
+.caption{
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    font-family: 'Nunito Sans';
+    font-size: 11pt;
+    text-align: justify;
+    border: 0px;
+}
